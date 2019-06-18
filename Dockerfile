@@ -1,4 +1,5 @@
 FROM centos:latest
+LABEL maintainer=lindynetech@gmail.com
 RUN yum update -y && \
     yum install epel-release unzip git -y && \
     yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm -y && \
